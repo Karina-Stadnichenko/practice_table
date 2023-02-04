@@ -7,10 +7,11 @@ body {
 
 }
 .btn {
-padding: 30px;
+padding: 10px 20px;
+
 }
 #tariffs {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-collapse: collapse;
     
 }
@@ -50,18 +51,18 @@ padding: 30px;
 }
 
 
-#tariffs > tbody tr:nth-child(odd) td:nth-child(odd) {
+#tariffs :not(thead) tr:nth-child(odd) td:nth-child(odd) {
     background-color: #dbdbdb;
  } 
 
-#tariffs > tbody tr:nth-child(odd) td:nth-child(even) {
+#tariffs :not(thead) tr:nth-child(odd) td:nth-child(even) {
     background-color: #e7e7e7;
 } 
-#tariffs > tbody tr:nth-child(even) td:nth-child(odd) {
+#tariffs :not(thead) tr:nth-child(even) td:nth-child(odd) {
     background-color: #e7e7e7;
  } 
 
-#tariffs > tbody tr:nth-child(even) td:nth-child(even) {
+#tariffs :not(thead) tr:nth-child(even) td:nth-child(even) {
     background-color: #f3f3f3;
 } 
 
